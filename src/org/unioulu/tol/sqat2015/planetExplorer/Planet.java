@@ -25,5 +25,4 @@ public class Planet {
 		return sizeY;
 	}
 	
-
 }
