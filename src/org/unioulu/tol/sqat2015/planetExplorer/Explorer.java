@@ -21,7 +21,7 @@ public class Explorer {
 	}
 
 	public String getDirection() {
-		return direction;
+		return direction.charAt(0);
 	}
 	
 	public void turnRight() {

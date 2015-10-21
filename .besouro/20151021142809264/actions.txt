@@ -94,3 +94,4 @@ UnitTestCaseAction 1445428644287 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445428644287 TestPlanetExplorer OK
 RefactoringAction 1445428679858 PlanetExplorer.java ADD Explorer explorer FIELD
 EditAction 1445428707716 PlanetExplorer.java 1618 4 6 0
+EditAction 1445428748191 Explorer.java 1019 6 8 0
