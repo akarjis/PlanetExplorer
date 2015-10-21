@@ -76,8 +76,6 @@ public class Explorer {
 			y--;
 		else if (direction.equalsIgnoreCase("East"))
 			x--;
-		
-		
 	}
 	
 	public void positionCheck(Planet planet) {

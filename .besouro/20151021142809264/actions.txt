@@ -258,3 +258,4 @@ UnitTestSessionAction 1445431388587 TestPlanetExplorer OK
 RefactoringAction 1445431434514 Explorer.java ADD void positionCheck() METHOD
 RefactoringAction 1445431438028 Explorer.java RENAME positionCheck()=>void positionCheck(Planet) METHOD
 EditAction 1445431457335 Explorer.java 1791 11 14 0
+EditAction 1445431460357 Explorer.java 1783 11 14 0
