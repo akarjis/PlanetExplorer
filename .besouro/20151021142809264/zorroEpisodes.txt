@@ -12,5 +12,6 @@
 1445429465713 test-first 4 26 true
 1445429619162 test-first 3 153 true
 1445429908308 test-last 1 289 false
-1445430014090 test-addition 1 105 false
-1445430187936 refactoring 3 173 false
+1445430014090 test-addition 1 105 true
+1445430187936 refactoring 3 173 true
+1445430703417 test-first 3 515 true

@@ -55,6 +55,17 @@ public class Explorer {
 		else if (direction.equalsIgnoreCase("East"))
 			direction = "North";
 	}
+
+	public void moveForward() {
+		if (direction.equalsIgnoreCase("North"))
+			y--;
+		else if (direction.equalsIgnoreCase("West"))
+			x--;
+		else if (direction.equalsIgnoreCase("South"))
+			y++;
+		else if (direction.equalsIgnoreCase("East"))
+			x++;
+	}
 	
 	public void moveBack() {
 		if (direction.equalsIgnoreCase("North"))

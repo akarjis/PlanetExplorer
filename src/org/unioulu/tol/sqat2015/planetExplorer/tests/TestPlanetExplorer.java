@@ -38,6 +38,12 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
+	public void testExplorerMoveCommandMultiple() {
+		String returnString = planetExplorer.executeCommand("bbrff");
+		assertEquals("(2,2,E)", returnString);
+	}
+	
+	@Test
 	public void testExplorerEmptyCommandReturnToStart() {
 		String returnString = planetExplorer.executeCommand("lll");
 		returnString = planetExplorer.executeCommand("");

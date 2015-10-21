@@ -202,3 +202,12 @@ EditAction 1445430640182 Explorer.java 1466 9 13 0
 UnitTestCaseAction 1445430640490 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445430640491 TestPlanetExplorer FAIL
 EditAction 1445430701399 Explorer.java 1466 9 13 0
+UnitTestCaseAction 1445430703416 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445430703417 TestPlanetExplorer OK
+RefactoringAction 1445430735809 TestPlanetExplorer.java ADD void testExplorerMoveCommandOnce()/2 METHOD
+RefactoringAction 1445430739820 TestPlanetExplorer.java RENAME testExplorerMoveCommandOnce()/2=>void testExplorerMoveCommandMultiple() METHOD
+UnitTestCaseAction 1445430757112 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445430757112 TestPlanetExplorer FAIL
+RefactoringAction 1445430770823 Explorer.java ADD void moveBack()/2 METHOD
+RefactoringAction 1445430776837 Explorer.java RENAME moveBack()/2=>void moveForward() METHOD
+EditAction 1445430794141 Explorer.java 1727 10 14 0
