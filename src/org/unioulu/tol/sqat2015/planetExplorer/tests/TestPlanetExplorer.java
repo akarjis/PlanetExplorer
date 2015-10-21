@@ -39,7 +39,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testExplorerTurnCommandMultiple() {
-		planetExplorer.executeCommand("eee");
+		planetExplorer.executeCommand("lll");
 		assertEquals("E", String.valueOf(explorer.getDirection()));
 	}
 	
