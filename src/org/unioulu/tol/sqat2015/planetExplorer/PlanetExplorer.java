@@ -34,6 +34,8 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 	
+		String ret = "";
+		
 		for (char c : command.toCharArray()) {
 			
 			switch (c) {
@@ -49,7 +51,7 @@ public class PlanetExplorer {
 			
 		}
 	
-		return null;
+		return ret;
 	}
 	
 	public Explorer getExplorer() {
