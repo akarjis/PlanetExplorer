@@ -119,3 +119,6 @@ UnitTestSessionAction 1445429068116 TestPlanetExplorer FAIL
 RefactoringAction 1445429083061 PlanetExplorer.java ADD Explorer getExplorer() METHOD
 EditAction 1445429091686 PlanetExplorer.java 1679 5 7 0
 EditAction 1445429105783 TestPlanetExplorer.java 1965 7 27 14
+UnitTestCaseAction 1445429106093 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445429106094 TestPlanetExplorer FAIL
+EditAction 1445429204834 PlanetExplorer.java 1703 5 8 0
