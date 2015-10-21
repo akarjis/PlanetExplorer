@@ -30,10 +30,7 @@ public class Planet {
 	
 	public void placeObstacles(String obstacles) {
 		
-	    
 	    String str = obstacles.replaceAll("[^-?0-9]+", " "); 
-	    //System.out.println(Arrays.asList(str.trim().split(" ")));
-	    
 	    Iterator<String> itr = Arrays.asList(str.trim().split(" ")).iterator();
 	    
 	    while(itr.hasNext()) {

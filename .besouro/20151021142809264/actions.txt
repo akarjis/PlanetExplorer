@@ -323,3 +323,6 @@ UnitTestCaseAction 1445433069173 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445433069174 TestPlanetExplorer FAIL
 RefactoringAction 1445433148369 Planet.java ADD import java.util.Iterator IMPORT
 EditAction 1445433228880 Planet.java 952 5 9 0
+UnitTestCaseAction 1445433238139 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445433238141 TestPlanetExplorer OK
+EditAction 1445433255835 Planet.java 872 5 9 0
