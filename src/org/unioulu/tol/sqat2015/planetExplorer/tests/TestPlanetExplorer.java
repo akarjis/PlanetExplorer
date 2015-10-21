@@ -35,7 +35,7 @@ public class TestPlanetExplorer {
 	public void testExplorerStartLocation() {
 		assertEquals(0, explorer.getX());
 		assertEquals(0, explorer.getY());
-		assertEquals("North", explorer.getDirection());
+		assertEquals("N", explorer.getDirection());
 	}
 	
 	@Test
