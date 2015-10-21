@@ -47,6 +47,10 @@ public class PlanetExplorer {
 				case 'l':
 					explorer.turnLeft();
 					break;
+					
+				case 'b':
+					explorer.moveBack();
+					break;
 			}
 		}
 	
