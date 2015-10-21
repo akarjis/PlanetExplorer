@@ -56,3 +56,10 @@ EditAction 1445428291300 Explorer.java 346 4 4 0
 UnitTestCaseAction 1445428294805 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445428294806 TestPlanetExplorer OK
 EditAction 1445428311103 Explorer.java 366 4 6 0
+UnitTestCaseAction 1445428313308 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445428313309 TestPlanetExplorer OK
+RefactoringAction 1445428342524 TestPlanetExplorer.java ADD void testExplorerTurning() METHOD
+RefactoringAction 1445428354036 Explorer.java ADD void turn FIELD
+RefactoringAction 1445428357548 Explorer.java RENAME turn=>void turnRight() METHOD
+RefactoringAction 1445428363571 Explorer.java ADD void turnLeft() METHOD
+EditAction 1445428365104 Explorer.java 443 6 6 0

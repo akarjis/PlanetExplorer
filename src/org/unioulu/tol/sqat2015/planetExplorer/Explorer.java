@@ -23,4 +23,12 @@ public class Explorer {
 	public String getDirection() {
 		return direction;
 	}
+	
+	public void turnRight() {
+		
+	}
+	
+	public void turnLeft() {
+		
+	}
 }
