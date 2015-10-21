@@ -294,3 +294,32 @@ EditAction 1445432441573 Planet.java 786 5 9 0
 UnitTestCaseAction 1445432441882 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445432441882 TestPlanetExplorer FAIL
 EditAction 1445432474085 Planet.java 817 5 9 0
+UnitTestCaseAction 1445432476530 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445432476531 TestPlanetExplorer OK
+RefactoringAction 1445432493950 TestPlanetExplorer.java ADD void testObstacle()/2 METHOD
+RefactoringAction 1445432496465 TestPlanetExplorer.java RENAME testObstacle()/2=>void testObstacles() METHOD
+UnitTestCaseAction 1445432567082 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445432567082 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445432604943 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445432604943 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445432668584 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445432668584 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445432727408 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445432727409 TestPlanetExplorer FAIL
+RefactoringAction 1445432881113 Planet.java ADD T FIELD
+RefactoringAction 1445432881114 Planet.java ADD string Input FIELD
+RefactoringAction 1445432881115 Planet.java ADD string string FIELD
+RefactoringAction 1445432881116 Planet.java ADD where T FIELD
+RefactoringAction 1445432900254 Planet.java ADD import java.awt.List IMPORT
+RefactoringAction 1445432920267 Planet.java RENAME Input=>String input FIELD
+RefactoringAction 1445432937306 Planet.java REMOVE string FIELD
+RefactoringAction 1445432937307 Planet.java REMOVE GetMatches FIELD
+RefactoringAction 1445432937307 Planet.java REMOVE T FIELD
+RefactoringAction 1445432937308 Planet.java REMOVE input FIELD
+CompilationAction 1445433059165 Planet.java
+RefactoringAction 1445433066528 Planet.java ADD import java.util.Arrays IMPORT
+CompilationAction 1445433068892 Planet.java
+UnitTestCaseAction 1445433069173 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445433069174 TestPlanetExplorer FAIL
+RefactoringAction 1445433148369 Planet.java ADD import java.util.Iterator IMPORT
+EditAction 1445433228880 Planet.java 952 5 9 0

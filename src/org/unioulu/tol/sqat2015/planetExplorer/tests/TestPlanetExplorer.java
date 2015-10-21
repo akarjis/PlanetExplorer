@@ -17,7 +17,7 @@ public class TestPlanetExplorer {
 
 	@Before
 	public void setUp() {
-		planetExplorer = new PlanetExplorer(100,100, "(1,1)");
+		planetExplorer = new PlanetExplorer(100,100, "(1,1)(3,3)(99,99");
 		explorer = planetExplorer.getExplorer();
 		planet = planetExplorer.getPlanet();
 	}
@@ -37,6 +37,13 @@ public class TestPlanetExplorer {
 	@Test
 	public void testObstacle() {
 		assertTrue(planet.getCell(1, 1));
+	}
+	
+	@Test
+	public void testObstacles() {
+		assertTrue(planet.getCell(1, 1));
+		assertTrue(planet.getCell(3, 3));
+		assertTrue(planet.getCell(99, 99));
 	}
 	
 	@Test

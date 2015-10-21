@@ -1,5 +1,8 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
+import java.util.Arrays;
+import java.util.Iterator;
+
 public class Planet {
 
 	final private int sizeX;
@@ -27,20 +30,19 @@ public class Planet {
 	
 	public void placeObstacles(String obstacles) {
 		
-		
-		boolean repeat = true;
-		int index = 0;
-		
-		while (repeat) {
-			try {
-				int x = Integer.parseInt(obstacles.charAt(index + 1) + "" ); 
-				int y = Integer.parseInt(obstacles.charAt(index + 3) + "" );
-				cells[x][y] = true;
-				
-				index += 8;
-			} catch (Exception e) {
-				repeat = false;
-			}
-		}
+	    
+	    String str = obstacles.replaceAll("[^-?0-9]+", " "); 
+	    //System.out.println(Arrays.asList(str.trim().split(" ")));
+	    
+	    Iterator<String> itr = Arrays.asList(str.trim().split(" ")).iterator();
+	    
+	    while(itr.hasNext()) {
+	    	
+	    	int x = Integer.parseInt(itr.next());
+	    	int y = Integer.parseInt(itr.next());
+	    	
+	    	cells[x][y] = true;
+	    }
+	    
 	}
 }
