@@ -41,3 +41,5 @@
 1445429908313 test-last 1 265 false
 1445429908314 test-first 3 265 true
 1445429908315 test-first 3 265 true
+1445430014090 test-addition 1 59 true
+1445430014091 test-addition 1 59 true

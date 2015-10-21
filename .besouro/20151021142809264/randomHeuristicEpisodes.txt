@@ -12,3 +12,4 @@
 1445429465713 test-first 4 2 true
 1445429619162 test-first 3 106 true
 1445429908308 test-last 1 265 false
+1445430014090 test-addition 1 59 true

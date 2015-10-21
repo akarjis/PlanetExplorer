@@ -33,7 +33,8 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testExplorerEmptyCommandReturnToStart() {
-		String returnString = planetExplorer.executeCommand("");
+		String returnString = planetExplorer.executeCommand("lll");
+		returnString = planetExplorer.executeCommand("");
 		assertEquals("(0,0,N)", returnString);
 	}
 	
