@@ -265,3 +265,4 @@ RefactoringAction 1445431476082 TestPlanetExplorer.java RENAME testExplorerMoveC
 UnitTestCaseAction 1445431494016 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445431494016 TestPlanetExplorer FAIL
 EditAction 1445431528538 PlanetExplorer.java 2095 5 8 0
+EditAction 1445431617919 Explorer.java 1966 11 15 0

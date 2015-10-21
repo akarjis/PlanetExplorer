@@ -79,6 +79,13 @@ public class Explorer {
 	}
 	
 	public void positionCheck(Planet planet) {
-		
+		if (x < 0)
+			x = planet.getSizeX() -1;
+		else if (x >= planet.getSizeX())
+			x = 0;
+		else if (y < 0)
+			y = planet.getSizeY() -1;
+		else if (y >= planet.getSizeX())
+			y = 0;
 	}
 }
