@@ -30,7 +30,7 @@ public class Planet {
 	
 	public void placeObstacles(String obstacles) {
 		
-	    String str = obstacles.replaceAll("[^-?0-9]+", " "); 
+	    String str = obstacles.replaceAll("[^-?0-9]+", " ");
 	    Iterator<String> itr = Arrays.asList(str.trim().split(" ")).iterator();
 	    
 	    while(itr.hasNext()) {
@@ -38,7 +38,8 @@ public class Planet {
 	    	int x = Integer.parseInt(itr.next());
 	    	int y = Integer.parseInt(itr.next());
 	    	
-	    	cells[x][y] = true;
+	    	if (sizeX <= x && sizeY <= y)
+	    		cells[x][y] = true;
 	    }
 	    
 	}

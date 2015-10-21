@@ -326,3 +326,10 @@ EditAction 1445433228880 Planet.java 952 5 9 0
 UnitTestCaseAction 1445433238139 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445433238141 TestPlanetExplorer OK
 EditAction 1445433255835 Planet.java 872 5 9 0
+RefactoringAction 1445433318349 TestPlanetExplorer.java ADD void testObstacles()/2 METHOD
+RefactoringAction 1445433323366 TestPlanetExplorer.java RENAME testObstacles()/2=>void testPlaceObstacles() METHOD
+RefactoringAction 1445433327385 TestPlanetExplorer.java RENAME testPlaceObstacles()=>void testPlaceObstaclesT() METHOD
+RefactoringAction 1445433328899 TestPlanetExplorer.java RENAME testPlaceObstaclesT()=>void testPlaceObstaclesTo() METHOD
+RefactoringAction 1445433333416 TestPlanetExplorer.java RENAME testPlaceObstaclesTo()=>void testPlaceObstaclesOutside() METHOD
+RefactoringAction 1445433335432 TestPlanetExplorer.java RENAME testPlaceObstaclesOutside()=>void testPlaceObstaclesOutsideThePlanet() METHOD
+EditAction 1445433380939 Planet.java 909 5 9 0
