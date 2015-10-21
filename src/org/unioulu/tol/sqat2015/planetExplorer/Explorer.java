@@ -20,7 +20,7 @@ public class Explorer {
 		return y;
 	}
 
-	public String getDirection() {
+	public char getDirection() {
 		return direction.charAt(0);
 	}
 	

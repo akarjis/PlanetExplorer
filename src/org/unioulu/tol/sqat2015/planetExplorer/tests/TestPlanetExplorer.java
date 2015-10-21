@@ -41,25 +41,24 @@ public class TestPlanetExplorer {
 	@Test
 	public void testExplorerTurningLeft() {
 		explorer.turnLeft();
-		assertEquals("West", explorer.getDirection());
+		assertEquals("W", explorer.getDirection());
 		explorer.turnLeft();
-		assertEquals("South", explorer.getDirection());
+		assertEquals("S", explorer.getDirection());
 		explorer.turnLeft();
-		assertEquals("East", explorer.getDirection());
+		assertEquals("E", explorer.getDirection());
 		explorer.turnLeft();
-		assertEquals("North", explorer.getDirection());
+		assertEquals("N", explorer.getDirection());
 	}
 	
 	@Test
 	public void testExplorerTurningRight() {
 		explorer.turnRight();
-		assertEquals("East", explorer.getDirection());
+		assertEquals("E", explorer.getDirection());
 		explorer.turnRight();
-		assertEquals("South", explorer.getDirection());
+		assertEquals("S", explorer.getDirection());
 		explorer.turnRight();
-		assertEquals("West", explorer.getDirection());
+		assertEquals("W", explorer.getDirection());
 		explorer.turnRight();
-		assertEquals("North", explorer.getDirection());
-		
+		assertEquals("N", explorer.getDirection());
 	}
 }
