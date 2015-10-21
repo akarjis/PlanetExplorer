@@ -78,3 +78,9 @@ EditAction 1445428543187 Explorer.java 726 6 7 0
 UnitTestCaseAction 1445428546348 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445428546348 TestPlanetExplorer OK
 EditAction 1445428555956 TestPlanetExplorer.java 1320 5 17 9
+UnitTestCaseAction 1445428557999 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445428558000 TestPlanetExplorer OK
+RefactoringAction 1445428562391 TestPlanetExplorer.java RENAME testExplorerTurning()=>void testExplorerTurningLeft() METHOD
+RefactoringAction 1445428570912 TestPlanetExplorer.java ADD void testExplorerTurningLeft()/2 METHOD
+RefactoringAction 1445428575425 TestPlanetExplorer.java RENAME testExplorerTurningLeft()/2=>void testExplorerTurningRight() METHOD
+EditAction 1445428596968 TestPlanetExplorer.java 1684 6 25 13
