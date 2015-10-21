@@ -17,7 +17,7 @@ public class TestPlanetExplorer {
 
 	@Before
 	public void setUp() {
-		planetExplorer = new PlanetExplorer(100,100, "(1,1)(3,3)(99,99");
+		planetExplorer = new PlanetExplorer(100,100, "(1,1)(3,3)(88,88");
 		explorer = planetExplorer.getExplorer();
 		planet = planetExplorer.getPlanet();
 	}
@@ -43,13 +43,29 @@ public class TestPlanetExplorer {
 	public void testObstacles() {
 		assertTrue(planet.getCell(1, 1));
 		assertTrue(planet.getCell(3, 3));
-		assertTrue(planet.getCell(99, 99));
+		assertTrue(planet.getCell(88, 88));
 	}
 	
 	@Test
 	public void testExplorerFindsObstacle() {
 		String returnString = planetExplorer.executeCommand("brf");
 		assertEquals("(1,1,E)(1,1)", returnString);
+	}
+	
+	@Test
+	public void testExplorerFindsMultipleObstacles() {
+		String returnString = planetExplorer.executeCommand("brfffrff");
+		assertEquals("(3,3,S)(1,1)(3,3)", returnString);
+	}
+	
+	@Test
+	public void testExplorerTourAroundThePlanet() {
+		planetExplorer = new PlanetExplorer(6,6, "(2,2)(0,5)(5,0)");
+		explorer = planetExplorer.getExplorer();
+		planet = planetExplorer.getPlanet();
+		
+		String returnString = planetExplorer.executeCommand("bbrffffflbbblfffffrb");
+		assertEquals("(0,0,N)(2,2)(0,5)(5,0)", returnString);
 	}
 	
 	@Test

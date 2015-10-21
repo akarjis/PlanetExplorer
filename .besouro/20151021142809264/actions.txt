@@ -357,3 +357,29 @@ RefactoringAction 1445433757590 Explorer.java ADD import java.util.ArrayList IMP
 CompilationAction 1445433761514 Explorer.java
 EditAction 1445433772928 PlanetExplorer.java 2224 6 10 0
 EditAction 1445433793635 Explorer.java 2483 12 19 0
+UnitTestCaseAction 1445433796679 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445433796679 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445433845654 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445433845654 TestPlanetExplorer OK
+RefactoringAction 1445433863429 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1445433868458 TestPlanetExplorer.java RENAME test=>void testMultiple FIELD
+RefactoringAction 1445433870472 TestPlanetExplorer.java RENAME testMultiple=>void testMultipleObstacle FIELD
+RefactoringAction 1445433879491 TestPlanetExplorer.java RENAME testMultipleObstacle=>void testExplorerFindsMultipleObstacles() METHOD
+RefactoringAction 1445433938646 TestPlanetExplorer.java REMOVE testExplorerFindsMultipleObstacles() METHOD
+RefactoringAction 1445433948164 TestPlanetExplorer.java ADD void testExplorerFindsMultipleObstacles() METHOD
+UnitTestCaseAction 1445433975613 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445433975614 TestPlanetExplorer OK
+RefactoringAction 1445433993828 TestPlanetExplorer.java ADD void testExplorerTourAroundThePlanet() METHOD
+UnitTestCaseAction 1445434121745 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445434121745 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445434159215 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445434159216 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445434172816 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445434172816 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445434261908 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445434261908 TestPlanetExplorer FAIL
+RefactoringAction 1445434314454 Explorer.java ADD Set<String> foundObstacles/2 FIELD
+RefactoringAction 1445434316469 Explorer.java REMOVE foundObstacles/2 FIELD
+RefactoringAction 1445434319424 Explorer.java ADD import java.util.Set IMPORT
+RefactoringAction 1445434352591 Explorer.java ADD import java.util.Iterator IMPORT
+EditAction 1445434369188 Explorer.java 2594 12 19 0

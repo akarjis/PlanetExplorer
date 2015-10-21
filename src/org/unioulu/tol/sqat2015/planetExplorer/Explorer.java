@@ -1,14 +1,16 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 
 public class Explorer {
 	
 	private int x;
 	private int y;
 	private String direction = "";
-	private List<String> foundObstacles;
+	private Set<String> foundObstacles;
 
 	public Explorer() {
 		direction = "North";
@@ -42,8 +44,10 @@ public class Explorer {
 		String ret = "";
 		
 		if (foundObstacles != null) {
-			for (String s : foundObstacles)
-				ret += s;
+			Iterator<String> itr = foundObstacles.iterator();
+			while (itr.hasNext()) {
+				ret += itr.next();
+			}
 		}
 		
 		return ret;
