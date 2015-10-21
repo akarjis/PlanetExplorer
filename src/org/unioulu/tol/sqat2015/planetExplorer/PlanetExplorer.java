@@ -37,6 +37,10 @@ public class PlanetExplorer {
 		return null;
 	}
 	
+	public Explorer getExplorer() {
+		return explorer;
+	}
+	
 	public int getPlanetWidth() {
 		return sizeX;
 	}
