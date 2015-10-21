@@ -90,3 +90,7 @@ EditAction 1445428612984 Explorer.java 1009 6 8 0
 UnitTestCaseAction 1445428615583 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445428615584 TestPlanetExplorer FAIL
 EditAction 1445428640055 Explorer.java 1009 6 8 0
+UnitTestCaseAction 1445428644287 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445428644287 TestPlanetExplorer OK
+RefactoringAction 1445428679858 PlanetExplorer.java ADD Explorer explorer FIELD
+EditAction 1445428707716 PlanetExplorer.java 1618 4 6 0
