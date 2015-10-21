@@ -138,3 +138,6 @@ RefactoringAction 1445429512257 TestPlanetExplorer.java RENAME testExplorerTurnC
 RefactoringAction 1445429516768 TestPlanetExplorer.java ADD void testExplorerTurnCommandOnce()/2 METHOD
 RefactoringAction 1445429522283 TestPlanetExplorer.java RENAME testExplorerTurnCommandOnce()/2=>void testExplorerTurnCommandMultiple() METHOD
 EditAction 1445429530533 TestPlanetExplorer.java 2138 8 29 15
+UnitTestCaseAction 1445429533250 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445429533250 TestPlanetExplorer FAIL
+EditAction 1445429548477 PlanetExplorer.java 1878 5 8 0

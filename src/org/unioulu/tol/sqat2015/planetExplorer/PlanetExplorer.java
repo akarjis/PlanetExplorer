@@ -40,6 +40,10 @@ public class PlanetExplorer {
 			case 'r':
 				explorer.turnRight();
 				break;
+				
+			case 'e':
+				explorer.turnRight();
+				break;
 			}
 			
 			
