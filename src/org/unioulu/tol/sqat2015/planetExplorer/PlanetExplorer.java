@@ -4,6 +4,10 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // ID: 107
 // Finish time:
 public class PlanetExplorer {
+	
+	final private int sizeX;
+	final private int sizeY;
+	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -11,6 +15,8 @@ public class PlanetExplorer {
 		Example use:
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
+		sizeX = x;
+		sizeY = y;
 	}
 	
 	public String executeCommand(String command){

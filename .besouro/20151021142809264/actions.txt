@@ -1,3 +1,7 @@
 FileOpenedAction 1445426889465 TestPlanetExplorer.java 228 1 1 0
 FileOpenedAction 1445426999886 PlanetExplorer.java 1342 2 1 0
 EditAction 1445427355223 PlanetExplorer.java 1346 2 1 0
+RefactoringAction 1445427379654 PlanetExplorer.java ADD int si FIELD
+RefactoringAction 1445427381682 PlanetExplorer.java RENAME si=>int sizeX FIELD
+RefactoringAction 1445427385708 PlanetExplorer.java ADD int sizeY FIELD
+EditAction 1445427415966 PlanetExplorer.java 1434 2 3 0
