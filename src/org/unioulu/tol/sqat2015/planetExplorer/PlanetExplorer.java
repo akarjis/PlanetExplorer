@@ -41,7 +41,7 @@ public class PlanetExplorer {
 					explorer.turnRight();
 					break;
 					
-				case 'e':
+				case 'l':
 					explorer.turnRight();
 					break;
 			}
