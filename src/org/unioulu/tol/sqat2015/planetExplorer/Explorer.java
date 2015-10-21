@@ -58,11 +58,11 @@ public class Explorer {
 	
 	public void moveBack() {
 		if (direction.equalsIgnoreCase("North"))
-			y--;
+			y++;
 		else if (direction.equalsIgnoreCase("West"))
 			x++;
 		else if (direction.equalsIgnoreCase("South"))
-			y++;
+			y--;
 		else if (direction.equalsIgnoreCase("East"))
 			x--;
 	}
