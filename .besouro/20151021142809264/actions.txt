@@ -352,3 +352,7 @@ RefactoringAction 1445433625500 Explorer.java ADD List<String> foundObstacles FI
 RefactoringAction 1445433634554 Explorer.java ADD import java.util.List IMPORT
 RefactoringAction 1445433725808 Explorer.java ADD String getObstacles() METHOD
 EditAction 1445433747433 Explorer.java 2414 12 19 0
+CompilationAction 1445433747757 Explorer.java
+RefactoringAction 1445433757590 Explorer.java ADD import java.util.ArrayList IMPORT
+CompilationAction 1445433761514 Explorer.java
+EditAction 1445433772928 PlanetExplorer.java 2224 6 10 0

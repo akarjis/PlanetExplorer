@@ -1,5 +1,6 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Explorer {
