@@ -35,30 +35,30 @@ public class TestPlanetExplorer {
 	public void testExplorerStartLocation() {
 		assertEquals(0, explorer.getX());
 		assertEquals(0, explorer.getY());
-		assertEquals("N", String.valueOf(explorer.getDirection());
+		assertEquals("N", String.valueOf(explorer.getDirection()));
 	}
 	
 	@Test
 	public void testExplorerTurningLeft() {
 		explorer.turnLeft();
-		assertEquals("W", explorer.getDirection());
+		assertEquals("W", String.valueOf(explorer.getDirection()));
 		explorer.turnLeft();
-		assertEquals("S", explorer.getDirection());
+		assertEquals("S", String.valueOf(explorer.getDirection()));
 		explorer.turnLeft();
-		assertEquals("E", explorer.getDirection());
+		assertEquals("E", String.valueOf(explorer.getDirection()));
 		explorer.turnLeft();
-		assertEquals("N", explorer.getDirection());
+		assertEquals("N", String.valueOf(explorer.getDirection()));
 	}
 	
 	@Test
 	public void testExplorerTurningRight() {
 		explorer.turnRight();
-		assertEquals("E", String.valueOf(explorer.getDirection() ));
+		assertEquals("E", String.valueOf(explorer.getDirection()));
 		explorer.turnRight();
-		assertEquals("S", explorer.getDirection());
+		assertEquals("S", String.valueOf(explorer.getDirection()));
 		explorer.turnRight();
-		assertEquals("W", explorer.getDirection());
+		assertEquals("W", String.valueOf(explorer.getDirection()));
 		explorer.turnRight();
-		assertEquals("N", explorer.getDirection());
+		assertEquals("N", String.valueOf(explorer.getDirection()));
 	}
 }
