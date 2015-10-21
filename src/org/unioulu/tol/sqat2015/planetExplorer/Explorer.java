@@ -1,8 +1,7 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
-import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Set;
 
 public class Explorer {
@@ -113,7 +112,7 @@ public class Explorer {
 		
 		if (planet.getCell(x, y)) {
 			if (foundObstacles == null)
-				foundObstacles = new ArrayList<>();
+				foundObstacles = new HashSet<>();
 			
 			foundObstacles.add("(" + x + "," + y +")");
 		}

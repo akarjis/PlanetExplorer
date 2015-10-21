@@ -64,7 +64,7 @@ public class TestPlanetExplorer {
 		explorer = planetExplorer.getExplorer();
 		planet = planetExplorer.getPlanet();
 		
-		String returnString = planetExplorer.executeCommand("bbrffffflbbblfffffrb");
+		String returnString = planetExplorer.executeCommand("bbrffffflbbblfffffrbrffffffl");
 		assertEquals("(0,0,N)(2,2)(0,5)(5,0)", returnString);
 	}
 	
