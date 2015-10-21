@@ -22,3 +22,5 @@ RefactoringAction 1445427709436 PlanetExplorer.java ADD Integer getPlanetWidth()
 RefactoringAction 1445427713953 PlanetExplorer.java RENAME getPlanetWidth()/2=>Integer getPlanetHeight() METHOD
 EditAction 1445427716064 PlanetExplorer.java 1556 4 5 0
 EditAction 1445427749763 TestPlanetExplorer.java 644 3 4 2
+CompilationAction 1445427750023 TestPlanetExplorer.java
+EditAction 1445427769442 PlanetExplorer.java 1542 4 5 0

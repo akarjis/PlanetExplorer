@@ -34,12 +34,12 @@ public class PlanetExplorer {
 		return null;
 	}
 	
-	public Integer getPlanetWidth() {
-		return null;
+	public int getPlanetWidth() {
+		return 0;
 	}
 	
-	public Integer getPlanetHeight() {
-		return null;
+	public int getPlanetHeight() {
+		return 0;
 	}
 	
 }
