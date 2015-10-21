@@ -1,10 +1,13 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
+import java.util.List;
+
 public class Explorer {
 	
 	private int x;
 	private int y;
 	private String direction = "";
+	private List<String> foundObstacles;
 
 	public Explorer() {
 		direction = "North";
@@ -32,6 +35,15 @@ public class Explorer {
 	
 	public String getPosition() {
 		return "(" + getX() + "," + getY() + "," + getDirection() + ")";
+	}
+	
+	public String getObstacles() {
+		String ret = "";
+		
+		for (String s : foundObstacles)
+			ret += s;
+		
+		return ret;
 	}
 	
 	public void turnRight() {
@@ -78,7 +90,9 @@ public class Explorer {
 			x--;
 	}
 	
-	public void positionCheck(Planet planet) {
+	public void positionAndObstacleCheck(Planet planet) {
+		
+		// Check position first
 		if (x < 0)
 			x = planet.getSizeX() -1;
 		else if (x >= planet.getSizeX())
@@ -87,5 +101,16 @@ public class Explorer {
 			y = planet.getSizeY() -1;
 		else if (y >= planet.getSizeX())
 			y = 0;
+		
+		// Check if obstacle found
+		
+		if (planet.getCell(x, y)) {
+			if (foundObstacles == null)
+				foundObstacles = new ArrayList<>();
+			
+			foundObstacles.add("(" + x + "," + y +")");
+		}
+			
+		
 	}
 }

@@ -346,3 +346,9 @@ RefactoringAction 1445433471253 TestPlanetExplorer.java RENAME testObstacles()/2
 UnitTestCaseAction 1445433527374 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445433527374 TestPlanetExplorer FAIL
 EditAction 1445433547382 PlanetExplorer.java 2198 6 10 0
+CompilationAction 1445433547691 PlanetExplorer.java
+RefactoringAction 1445433564567 Explorer.java RENAME positionCheck(Planet)=>void positionAndObstacleCheck(Planet) METHOD
+RefactoringAction 1445433625500 Explorer.java ADD List<String> foundObstacles FIELD
+RefactoringAction 1445433634554 Explorer.java ADD import java.util.List IMPORT
+RefactoringAction 1445433725808 Explorer.java ADD String getObstacles() METHOD
+EditAction 1445433747433 Explorer.java 2414 12 19 0
