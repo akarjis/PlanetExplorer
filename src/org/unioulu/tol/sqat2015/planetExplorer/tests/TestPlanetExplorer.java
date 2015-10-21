@@ -32,11 +32,15 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testExplorerTurnCommand() {
+	public void testExplorerTurnCommandOnce() {
 		planetExplorer.executeCommand("r");
 		assertEquals("E", String.valueOf(explorer.getDirection()));
-		planetExplorer.executeCommand("r");
-		assertEquals("S", String.valueOf(explorer.getDirection()));
+	}
+	
+	@Test
+	public void testExplorerTurnCommandMultiple() {
+		planetExplorer.executeCommand("eee");
+		assertEquals("E", String.valueOf(explorer.getDirection()));
 	}
 	
 	@Test
