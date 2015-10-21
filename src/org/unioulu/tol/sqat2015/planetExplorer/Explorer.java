@@ -7,7 +7,7 @@ public class Explorer {
 	private String direction = "";
 
 	public Explorer() {
-		
+		direction = "North";
 	}
 	
 	public int getX() {
