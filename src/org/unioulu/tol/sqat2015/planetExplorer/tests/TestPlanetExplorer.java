@@ -41,6 +41,12 @@ public class TestPlanetExplorer {
 	@Test
 	public void testExplorerTurning() {
 		explorer.turnLeft();
+		assertEquals("West", explorer.getDirection());
+		explorer.turnLeft();
+		assertEquals("South", explorer.getDirection());
+		explorer.turnLeft();
 		assertEquals("East", explorer.getDirection());
+		
+		
 	}
 }
