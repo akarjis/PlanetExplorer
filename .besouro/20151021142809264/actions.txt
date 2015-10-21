@@ -236,3 +236,12 @@ EditAction 1445431216442 Planet.java 257 2 2 0
 RefactoringAction 1445431234874 PlanetExplorer.java REMOVE sizeX FIELD
 RefactoringAction 1445431234875 PlanetExplorer.java REMOVE sizeY FIELD
 EditAction 1445431236347 PlanetExplorer.java 2035 5 8 0
+CompilationAction 1445431236602 PlanetExplorer.java
+CompilationAction 1445431236602 PlanetExplorer.java
+CompilationAction 1445431323744 PlanetExplorer.java
+CompilationAction 1445431323745 PlanetExplorer.java
+CompilationAction 1445431323876 PlanetExplorer.java
+CompilationAction 1445431323877 PlanetExplorer.java
+RefactoringAction 1445431338213 Planet.java ADD int sizeX FIELD
+RefactoringAction 1445431338214 Planet.java ADD int sizeY FIELD
+EditAction 1445431348202 Planet.java 342 2 4 0
