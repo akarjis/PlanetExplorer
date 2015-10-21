@@ -84,3 +84,6 @@ RefactoringAction 1445428562391 TestPlanetExplorer.java RENAME testExplorerTurni
 RefactoringAction 1445428570912 TestPlanetExplorer.java ADD void testExplorerTurningLeft()/2 METHOD
 RefactoringAction 1445428575425 TestPlanetExplorer.java RENAME testExplorerTurningLeft()/2=>void testExplorerTurningRight() METHOD
 EditAction 1445428596968 TestPlanetExplorer.java 1684 6 25 13
+UnitTestCaseAction 1445428598864 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445428598865 TestPlanetExplorer FAIL
+EditAction 1445428612984 Explorer.java 1009 6 8 0
