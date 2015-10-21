@@ -36,8 +36,12 @@ public class PlanetExplorer {
 	
 		for (char c : command.toCharArray()) {
 			
-			if (c == 'r')
+			switch (c) {
+			case 'r':
 				explorer.turnRight();
+				break;
+				
+			}
 			
 			
 		}
