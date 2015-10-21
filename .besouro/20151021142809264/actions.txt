@@ -53,3 +53,6 @@ UnitTestCaseAction 1445428244056 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445428244056 TestPlanetExplorer FAIL
 RefactoringAction 1445428281719 Explorer.java RENAME direction=>String direction FIELD
 EditAction 1445428291300 Explorer.java 346 4 4 0
+UnitTestCaseAction 1445428294805 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445428294806 TestPlanetExplorer OK
+EditAction 1445428311103 Explorer.java 366 4 6 0

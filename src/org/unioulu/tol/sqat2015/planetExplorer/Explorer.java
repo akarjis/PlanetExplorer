@@ -8,14 +8,16 @@ public class Explorer {
 
 	public Explorer() {
 		direction = "North";
+		x = 0;
+		y = 0;
 	}
 	
 	public int getX() {
-		return 0;
+		return x;
 	}
 	
 	public int getY() {
-		return 0;
+		return y;
 	}
 
 	public String getDirection() {
