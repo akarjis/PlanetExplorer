@@ -27,11 +27,11 @@ public class Explorer {
 	public void turnRight() {
 		if (direction.equalsIgnoreCase("North"))
 			direction = "East";
-		else if (direction.equalsIgnoreCase("West"))
+		else if (direction.equalsIgnoreCase("East"))
 			direction = "South";
 		else if (direction.equalsIgnoreCase("South"))
 			direction = "West";
-		else if (direction.equalsIgnoreCase("East"))
+		else if (direction.equalsIgnoreCase("West"))
 			direction = "North";
 	}
 	
