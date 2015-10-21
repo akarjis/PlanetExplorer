@@ -35,6 +35,8 @@ public class Planet {
 			try {
 				int x = Integer.parseInt(obstacles.charAt(index + 1) + "" ); 
 				int y = Integer.parseInt(obstacles.charAt(index + 3) + "" );
+				cells[x][y] = true;
+				
 				index += 8;
 			} catch (Exception e) {
 				repeat = false;
