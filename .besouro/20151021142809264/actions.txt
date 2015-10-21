@@ -27,3 +27,25 @@ EditAction 1445427769442 PlanetExplorer.java 1542 4 5 0
 UnitTestCaseAction 1445427784351 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445427784354 TestPlanetExplorer FAIL
 EditAction 1445427791319 PlanetExplorer.java 1542 4 5 0
+CompilationAction 1445427791595 PlanetExplorer.java
+CompilationAction 1445427791596 PlanetExplorer.java
+CompilationAction 1445427799444 PlanetExplorer.java
+CompilationAction 1445427799445 PlanetExplorer.java
+UnitTestCaseAction 1445427803173 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445427803173 TestPlanetExplorer OK
+RefactoringAction 1445427834113 TestPlanetExplorer.java ADD void testL FIELD
+RefactoringAction 1445427839132 TestPlanetExplorer.java RENAME testL=>void testExplore FIELD
+RefactoringAction 1445427848653 TestPlanetExplorer.java RENAME testExplore=>void testExplorerStartLocation() METHOD
+RefactoringAction 1445427985442 Explorer.java ADD Explorer.java CLASS
+FileOpenedAction 1445427985558 Explorer.java 153 1 0 0
+RefactoringAction 1445428000071 Explorer.java ADD int x FIELD
+RefactoringAction 1445428000073 Explorer.java ADD int y FIELD
+RefactoringAction 1445428011604 Explorer.java ADD int get FIELD
+RefactoringAction 1445428027318 Explorer.java RENAME get=>int getX() METHOD
+RefactoringAction 1445428037341 Explorer.java ADD int getY() METHOD
+RefactoringAction 1445428045356 Explorer.java ADD String fac FIELD
+RefactoringAction 1445428047866 Explorer.java RENAME fac=>String direction FIELD
+RefactoringAction 1445428062405 Explorer.java ADD String getDirection() METHOD
+RefactoringAction 1445428092861 TestPlanetExplorer.java ADD Explorer explorer FIELD
+RefactoringAction 1445428109435 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.Explorer IMPORT
+EditAction 1445428243744 TestPlanetExplorer.java 965 4 9 5

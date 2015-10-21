@@ -35,11 +35,11 @@ public class PlanetExplorer {
 	}
 	
 	public int getPlanetWidth() {
-		return x;
+		return sizeX;
 	}
 	
 	public int getPlanetHeight() {
-		return y;
+		return sizeY;
 	}
 	
 }
