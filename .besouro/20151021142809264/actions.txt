@@ -283,3 +283,4 @@ UnitTestSessionAction 1445431950946 TestPlanetExplorer FAIL
 RefactoringAction 1445431969056 Planet.java ADD void placeObstacles() METHOD
 RefactoringAction 1445431972568 Planet.java RENAME placeObstacles()=>void placeObstacles(String) METHOD
 EditAction 1445431974361 Planet.java 494 5 6 0
+EditAction 1445431979604 PlanetExplorer.java 2161 6 9 0
