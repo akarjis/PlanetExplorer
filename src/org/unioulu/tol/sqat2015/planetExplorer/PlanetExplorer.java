@@ -33,4 +33,13 @@ public class PlanetExplorer {
 		
 		return null;
 	}
+	
+	public Integer getPlanetWidth() {
+		return null;
+	}
+	
+	public Integer getPlanetHeight() {
+		return null;
+	}
+	
 }
