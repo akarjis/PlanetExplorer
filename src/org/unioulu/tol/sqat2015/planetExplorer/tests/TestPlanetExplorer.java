@@ -44,6 +44,12 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
+	public void testPlanetExplorerCommandReturnString() {
+		String returnString = planetExplorer.executeCommand("lll");
+		assertEquals("(0,0,E)", returnString);
+	}
+	
+	@Test
 	public void testExplorerStartLocation() {
 		assertEquals(0, explorer.getX());
 		assertEquals(0, explorer.getY());

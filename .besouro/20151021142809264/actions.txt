@@ -154,3 +154,10 @@ UnitTestCaseAction 1445429619161 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445429619162 TestPlanetExplorer OK
 EditAction 1445429642357 PlanetExplorer.java 1907 5 9 0
 EditAction 1445429678939 PlanetExplorer.java 1874 5 8 0
+RefactoringAction 1445429703885 TestPlanetExplorer.java ADD void testExplorerTurnCommandMultiple()/2 METHOD
+RefactoringAction 1445429713402 TestPlanetExplorer.java RENAME testExplorerTurnCommandMultiple()/2=>void testExplorerReturn() METHOD
+RefactoringAction 1445429716917 TestPlanetExplorer.java RENAME testExplorerReturn()=>void testExplorerReturnStrin() METHOD
+RefactoringAction 1445429718931 TestPlanetExplorer.java RENAME testExplorerReturnStrin()=>void testExplorerRetu() METHOD
+RefactoringAction 1445429724444 TestPlanetExplorer.java RENAME testExplorerRetu()=>void testPlanet() METHOD
+RefactoringAction 1445429730458 TestPlanetExplorer.java RENAME testPlanet()=>void testPlanetExplorerCommandReturnString() METHOD
+EditAction 1445429795569 TestPlanetExplorer.java 2314 9 31 16
