@@ -251,3 +251,10 @@ EditAction 1445431365298 Planet.java 439 4 6 0
 CompilationAction 1445431365720 PlanetExplorer.java
 CompilationAction 1445431365720 PlanetExplorer.java
 EditAction 1445431368100 Planet.java 437 4 6 0
+CompilationAction 1445431387095 PlanetExplorer.java
+CompilationAction 1445431387096 PlanetExplorer.java
+UnitTestCaseAction 1445431388586 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445431388587 TestPlanetExplorer OK
+RefactoringAction 1445431434514 Explorer.java ADD void positionCheck() METHOD
+RefactoringAction 1445431438028 Explorer.java RENAME positionCheck()=>void positionCheck(Planet) METHOD
+EditAction 1445431457335 Explorer.java 1791 11 14 0

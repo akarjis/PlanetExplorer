@@ -62,3 +62,8 @@
 1445430817623 test-first 3 81 true
 1445430817624 test-first 3 81 true
 1445430817625 test-first 3 81 true
+1445431388587 refactoring 2A 564 true
+1445431388588 production 3 564 false
+1445431388589 refactoring 2A 564 true
+1445431388590 production 2 564 false
+1445431388591 production 1 564 false

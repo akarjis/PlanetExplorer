@@ -60,11 +60,11 @@ public class PlanetExplorer {
 	}
 	
 	public int getPlanetWidth() {
-		return planet.sizeX;
+		return planet.getSizeX();
 	}
 	
 	public int getPlanetHeight() {
-		return planet.sizeY;
+		return planet.getSizeY();
 	}
 	
 }
