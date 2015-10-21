@@ -16,7 +16,7 @@ public class TestPlanetExplorer {
 	@Before
 	public void setUp() {
 		planetExplorer = new PlanetExplorer(100,100, "(1,1)");
-		explorer = new Explorer();
+		explorer = planetExplorer.getExplorer();
 	}
 	
 	@After
