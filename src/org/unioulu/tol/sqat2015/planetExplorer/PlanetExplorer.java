@@ -50,6 +50,7 @@ public class PlanetExplorer {
 					explorer.moveForward();
 					break;
 			}
+			explorer.positionCheck(planet);
 		}
 	
 		return explorer.getPosition();

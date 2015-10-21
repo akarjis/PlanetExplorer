@@ -259,3 +259,9 @@ RefactoringAction 1445431434514 Explorer.java ADD void positionCheck() METHOD
 RefactoringAction 1445431438028 Explorer.java RENAME positionCheck()=>void positionCheck(Planet) METHOD
 EditAction 1445431457335 Explorer.java 1791 11 14 0
 EditAction 1445431460357 Explorer.java 1783 11 14 0
+RefactoringAction 1445431471049 TestPlanetExplorer.java ADD void testExplorerMoveCommandOnce()/2 METHOD
+RefactoringAction 1445431474066 TestPlanetExplorer.java RENAME testExplorerMoveCommandOnce()/2=>void testExplorerMoveCommand() METHOD
+RefactoringAction 1445431476082 TestPlanetExplorer.java RENAME testExplorerMoveCommand()=>void testExplorerMoveCommandWrapping() METHOD
+UnitTestCaseAction 1445431494016 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445431494016 TestPlanetExplorer FAIL
+EditAction 1445431528538 PlanetExplorer.java 2095 5 8 0

@@ -44,6 +44,12 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
+	public void testExplorerMoveCommandWrapping() {
+		String returnString = planetExplorer.executeCommand("f");
+		assertEquals("(0,99,N)", returnString);
+	}
+	
+	@Test
 	public void testExplorerEmptyCommandReturnToStart() {
 		String returnString = planetExplorer.executeCommand("lll");
 		returnString = planetExplorer.executeCommand("");
