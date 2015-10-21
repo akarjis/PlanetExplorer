@@ -64,3 +64,6 @@ RefactoringAction 1445428357548 Explorer.java RENAME turn=>void turnRight() METH
 RefactoringAction 1445428363571 Explorer.java ADD void turnLeft() METHOD
 EditAction 1445428365104 Explorer.java 443 6 6 0
 EditAction 1445428391697 TestPlanetExplorer.java 1092 5 11 6
+UnitTestCaseAction 1445428392012 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445428392012 TestPlanetExplorer FAIL
+EditAction 1445428429339 Explorer.java 508 6 7 0

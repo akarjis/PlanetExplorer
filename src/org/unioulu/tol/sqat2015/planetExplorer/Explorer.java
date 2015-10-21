@@ -29,6 +29,7 @@ public class Explorer {
 	}
 	
 	public void turnLeft() {
-		
+		if (direction.equalsIgnoreCase("North"))
+			directionn = "East";
 	}
 }
