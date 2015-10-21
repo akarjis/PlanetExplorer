@@ -32,6 +32,12 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
+	public void testExplorerMoveCommandOnce() {
+		String returnString = planetExplorer.executeCommand("b");
+		assertEquals("(0,1,N)", returnString);
+	}
+	
+	@Test
 	public void testExplorerEmptyCommandReturnToStart() {
 		String returnString = planetExplorer.executeCommand("lll");
 		returnString = planetExplorer.executeCommand("");

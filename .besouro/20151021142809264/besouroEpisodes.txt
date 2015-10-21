@@ -43,3 +43,11 @@
 1445429908315 test-first 3 265 true
 1445430014090 test-addition 1 59 true
 1445430014091 test-addition 1 59 true
+1445430187936 refactoring 3 143 true
+1445430187937 refactoring 3 143 true
+1445430187938 refactoring 3 143 true
+1445430187939 refactoring 3 143 true
+1445430187940 refactoring 3 143 true
+1445430187941 refactoring 3 143 true
+1445430187942 refactoring 3 143 true
+1445430187943 refactoring 3 143 true

@@ -187,3 +187,7 @@ RefactoringAction 1445430146934 Explorer.java RENAME setPosition(int, int, Strin
 RefactoringAction 1445430150944 Explorer.java RENAME resetPosition(int, int, String)=>void resetPosition() METHOD
 EditAction 1445430162898 Explorer.java 1207 8 12 0
 EditAction 1445430173695 PlanetExplorer.java 1952 5 9 0
+UnitTestCaseAction 1445430187936 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445430187936 TestPlanetExplorer OK
+RefactoringAction 1445430242988 TestPlanetExplorer.java ADD void testExplorerMoveCommandOnce() METHOD
+EditAction 1445430380486 TestPlanetExplorer.java 2707 11 36 18
