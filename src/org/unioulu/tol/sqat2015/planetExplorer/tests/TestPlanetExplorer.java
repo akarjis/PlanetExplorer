@@ -35,6 +35,8 @@ public class TestPlanetExplorer {
 	public void testExplorerTurnCommand() {
 		planetExplorer.executeCommand("r");
 		assertEquals("E", String.valueOf(explorer.getDirection()));
+		planetExplorer.executeCommand("r");
+		assertEquals("S", String.valueOf(explorer.getDirection()));
 	}
 	
 	@Test
