@@ -17,6 +17,13 @@ public class Planet {
 		return cells[x][y];
 	}
 	
+	public int getSizeX() {
+		return sizeX;
+	}
+	
+	public int getSizeY() {
+		return sizeY;
+	}
 	
 
 }
