@@ -37,4 +37,10 @@ public class TestPlanetExplorer {
 		assertEquals(0, explorer.getY());
 		assertEquals("North", explorer.getDirection());
 	}
+	
+	@Test
+	public void testExplorerTurning() {
+		explorer.turnLeft();
+		assertEquals("East", explorer.getDirection());
+	}
 }
