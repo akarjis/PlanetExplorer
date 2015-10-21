@@ -27,14 +27,18 @@ public class Planet {
 	
 	public void placeObstacles(String obstacles) {
 		
-		for (int i = 0; i < obstacles.length() * 5; i += 5) {
-			
-			String sub = obstacles.substring(i, i+5);
-	
-			int x = Integer.parseInt(sub.charAt(1) + "" );
-			int y = Integer.parseInt(sub.charAt(3) + "" );
-			
-			cells[x][y] = true;
+		
+		boolean repeat = true;
+		int index = 0;
+		
+		while (repeat) {
+			try {
+				int x = Integer.parseInt(obstacles.charAt(index + 1) + "" ); 
+				int y = Integer.parseInt(obstacles.charAt(index + 3) + "" );
+				index += 8;
+			} catch (Exception e) {
+				repeat = false;
+			}
 		}
 	}
 }
