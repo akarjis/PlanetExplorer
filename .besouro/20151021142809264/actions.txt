@@ -217,3 +217,19 @@ EditAction 1445430815899 PlanetExplorer.java 2072 5 9 0
 UnitTestCaseAction 1445430817623 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445430817623 TestPlanetExplorer OK
 EditAction 1445430824492 PlanetExplorer.java 2058 5 9 0
+RefactoringAction 1445430973876 Planet.java ADD Planet.java CLASS
+FileOpenedAction 1445430973987 Planet.java 149 1 0 0
+RefactoringAction 1445430987943 PlanetExplorer.java ADD Planet planet FIELD
+RefactoringAction 1445431017009 Planet.java RENAME Planet()=>Planet(int, int) METHOD
+RefactoringAction 1445431042047 Planet.java ADD int x FIELD
+RefactoringAction 1445431042048 Planet.java ADD int y FIELD
+RefactoringAction 1445431078578 Planet.java REMOVE y FIELD
+RefactoringAction 1445431078579 Planet.java REMOVE x FIELD
+FileOpenedAction 1445431092157 Cell.java 582 5 5 0
+FileOpenedAction 1445431101148 Grid.java 2816 10 25 0
+RefactoringAction 1445431141031 Planet.java ADD boolean FIELD
+CompilationAction 1445431177851 Planet.java
+CompilationAction 1445431186850 Planet.java
+RefactoringAction 1445431203833 Planet.java ADD boolean getCell() METHOD
+RefactoringAction 1445431208343 Planet.java RENAME getCell()=>boolean getCell(int, int) METHOD
+EditAction 1445431216442 Planet.java 257 2 2 0
