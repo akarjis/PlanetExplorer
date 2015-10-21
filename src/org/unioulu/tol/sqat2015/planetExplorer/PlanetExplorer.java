@@ -37,13 +37,13 @@ public class PlanetExplorer {
 		for (char c : command.toCharArray()) {
 			
 			switch (c) {
-			case 'r':
-				explorer.turnRight();
-				break;
-				
-			case 'e':
-				explorer.turnRight();
-				break;
+				case 'r':
+					explorer.turnRight();
+					break;
+					
+				case 'e':
+					explorer.turnRight();
+					break;
 			}
 			
 			
