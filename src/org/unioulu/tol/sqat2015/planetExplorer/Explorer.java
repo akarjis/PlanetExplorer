@@ -24,6 +24,10 @@ public class Explorer {
 		return direction.charAt(0);
 	}
 	
+	public String getPosition() {
+		return "(" + getX() + "," + getY() + "," + getDirection() + ")";
+	}
+	
 	public void turnRight() {
 		if (direction.equalsIgnoreCase("North"))
 			direction = "East";
