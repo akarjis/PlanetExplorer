@@ -47,7 +47,7 @@ public class PlanetExplorer {
 			}
 		}
 	
-		return null;
+		return explorer.getPosition();
 	}
 	
 	public Explorer getExplorer() {
