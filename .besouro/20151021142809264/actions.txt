@@ -341,3 +341,8 @@ UnitTestCaseAction 1445433407863 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445433407863 TestPlanetExplorer OK
 EditAction 1445433440332 Explorer.java 1966 11 15 0
 EditAction 1445433454879 Explorer.java 1966 11 15 0
+RefactoringAction 1445433463232 TestPlanetExplorer.java ADD void testObstacles()/2 METHOD
+RefactoringAction 1445433471253 TestPlanetExplorer.java RENAME testObstacles()/2=>void testExplorerFindsObstacle() METHOD
+UnitTestCaseAction 1445433527374 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445433527374 TestPlanetExplorer FAIL
+EditAction 1445433547382 PlanetExplorer.java 2198 6 10 0

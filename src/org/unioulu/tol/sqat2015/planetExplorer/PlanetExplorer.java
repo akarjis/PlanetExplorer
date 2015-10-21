@@ -51,7 +51,7 @@ public class PlanetExplorer {
 					explorer.moveForward();
 					break;
 			}
-			explorer.positionCheck(planet);
+			explorer.positionAndObstacleCheck(planet);
 		}
 	
 		return explorer.getPosition();

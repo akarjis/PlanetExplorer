@@ -47,6 +47,12 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
+	public void testExplorerFindsObstacle() {
+		String returnString = planetExplorer.executeCommand("brf");
+		assertEquals("(1,1,E)(1,1)", returnString);
+	}
+	
+	@Test
 	public void testExplorerMoveCommandOnce() {
 		String returnString = planetExplorer.executeCommand("b");
 		assertEquals("(0,1,N)", returnString);
