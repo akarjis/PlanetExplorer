@@ -284,3 +284,6 @@ RefactoringAction 1445431969056 Planet.java ADD void placeObstacles() METHOD
 RefactoringAction 1445431972568 Planet.java RENAME placeObstacles()=>void placeObstacles(String) METHOD
 EditAction 1445431974361 Planet.java 494 5 6 0
 EditAction 1445431979604 PlanetExplorer.java 2161 6 9 0
+CompilationAction 1445431979882 PlanetExplorer.java
+CompilationAction 1445431993541 PlanetExplorer.java
+EditAction 1445432092012 Planet.java 617 5 7 0

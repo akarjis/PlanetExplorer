@@ -27,5 +27,11 @@ public class Planet {
 	
 	public void placeObstacles(String obstacles) {
 		
+		for (int i = 0; i < obstacles.length() * 5; i += 5) {
+			
+			String sub = obstacles.substring(i, i+5);
+			
+			
+		}
 	}
 }

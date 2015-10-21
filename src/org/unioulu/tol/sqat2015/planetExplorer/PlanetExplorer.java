@@ -16,7 +16,8 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
 		explorer = new Explorer();
-		planet = new Planet(x, y, obstacles);
+		planet = new Planet(x, y);
+		planet.placeObstacles(obstacles);
 	}
 	
 	public String executeCommand(String command){
