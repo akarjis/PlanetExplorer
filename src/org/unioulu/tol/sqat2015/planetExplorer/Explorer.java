@@ -12,6 +12,12 @@ public class Explorer {
 		y = 0;
 	}
 	
+	public void resetPosition() {
+		direction = "North";
+		x = 0;
+		y = 0;
+	}
+	
 	public int getX() {
 		return x;
 	}

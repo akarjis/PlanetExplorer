@@ -177,3 +177,12 @@ EditAction 1445430011463 TestPlanetExplorer.java 2487 10 33 17
 UnitTestCaseAction 1445430014090 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445430014090 TestPlanetExplorer OK
 EditAction 1445430044278 TestPlanetExplorer.java 2543 10 34 17
+UnitTestCaseAction 1445430048226 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445430048226 TestPlanetExplorer FAIL
+RefactoringAction 1445430120862 Explorer.java ADD void setPo FIELD
+RefactoringAction 1445430122872 Explorer.java RENAME setPo=>void setPosition() METHOD
+RefactoringAction 1445430131883 Explorer.java RENAME setPosition()=>void setPosition(int, int) METHOD
+RefactoringAction 1445430139407 Explorer.java RENAME setPosition(int, int)=>void setPosition(int, int, String) METHOD
+RefactoringAction 1445430146934 Explorer.java RENAME setPosition(int, int, String)=>void resetPosition(int, int, String) METHOD
+RefactoringAction 1445430150944 Explorer.java RENAME resetPosition(int, int, String)=>void resetPosition() METHOD
+EditAction 1445430162898 Explorer.java 1207 8 12 0
