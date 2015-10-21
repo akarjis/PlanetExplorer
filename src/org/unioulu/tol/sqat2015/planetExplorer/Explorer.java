@@ -41,8 +41,10 @@ public class Explorer {
 	public String getObstacles() {
 		String ret = "";
 		
-		for (String s : foundObstacles)
-			ret += s;
+		if (foundObstacles != null) {
+			for (String s : foundObstacles)
+				ret += s;
+		}
 		
 		return ret;
 	}
