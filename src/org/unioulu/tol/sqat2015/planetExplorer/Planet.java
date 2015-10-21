@@ -38,8 +38,7 @@ public class Planet {
 	    	int x = Integer.parseInt(itr.next());
 	    	int y = Integer.parseInt(itr.next());
 	    	
-	    	if (sizeX <= x && sizeY <= y)
-	    		cells[x][y] = true;
+	    	cells[x][y] = true;
 	    }
 	    
 	}

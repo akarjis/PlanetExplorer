@@ -333,3 +333,7 @@ RefactoringAction 1445433328899 TestPlanetExplorer.java RENAME testPlaceObstacle
 RefactoringAction 1445433333416 TestPlanetExplorer.java RENAME testPlaceObstaclesTo()=>void testPlaceObstaclesOutside() METHOD
 RefactoringAction 1445433335432 TestPlanetExplorer.java RENAME testPlaceObstaclesOutside()=>void testPlaceObstaclesOutsideThePlanet() METHOD
 EditAction 1445433380939 Planet.java 909 5 9 0
+UnitTestCaseAction 1445433381266 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445433381266 TestPlanetExplorer FAIL
+RefactoringAction 1445433399637 TestPlanetExplorer.java REMOVE testPlaceObstaclesOutsideThePlanet() METHOD
+EditAction 1445433406299 Planet.java 871 5 9 0
