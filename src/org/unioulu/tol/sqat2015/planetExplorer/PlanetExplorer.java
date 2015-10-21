@@ -4,11 +4,9 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // ID: 107
 // Finish time:
 public class PlanetExplorer {
-	
-	final private int sizeX;
-	final private int sizeY;
-	
+		
 	final private Explorer explorer;
+	final private Planet planet;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -18,8 +16,7 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
 		explorer = new Explorer();
-		sizeX = x;
-		sizeY = y;
+		planet = new Planet(x, y);
 	}
 	
 	public String executeCommand(String command){

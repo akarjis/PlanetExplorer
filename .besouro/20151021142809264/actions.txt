@@ -233,3 +233,6 @@ CompilationAction 1445431186850 Planet.java
 RefactoringAction 1445431203833 Planet.java ADD boolean getCell() METHOD
 RefactoringAction 1445431208343 Planet.java RENAME getCell()=>boolean getCell(int, int) METHOD
 EditAction 1445431216442 Planet.java 257 2 2 0
+RefactoringAction 1445431234874 PlanetExplorer.java REMOVE sizeX FIELD
+RefactoringAction 1445431234875 PlanetExplorer.java REMOVE sizeY FIELD
+EditAction 1445431236347 PlanetExplorer.java 2035 5 8 0
