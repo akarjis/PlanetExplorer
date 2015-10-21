@@ -51,6 +51,9 @@ public class PlanetExplorer {
 				case 'b':
 					explorer.moveBack();
 					break;
+				case 'f':
+					explorer.moveForward();
+					break;
 			}
 		}
 	

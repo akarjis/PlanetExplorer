@@ -211,3 +211,6 @@ UnitTestSessionAction 1445430757112 TestPlanetExplorer FAIL
 RefactoringAction 1445430770823 Explorer.java ADD void moveBack()/2 METHOD
 RefactoringAction 1445430776837 Explorer.java RENAME moveBack()/2=>void moveForward() METHOD
 EditAction 1445430794141 Explorer.java 1727 10 14 0
+UnitTestCaseAction 1445430801784 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445430801784 TestPlanetExplorer FAIL
+EditAction 1445430815899 PlanetExplorer.java 2072 5 9 0
