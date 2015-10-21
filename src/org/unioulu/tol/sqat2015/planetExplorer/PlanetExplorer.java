@@ -42,7 +42,7 @@ public class PlanetExplorer {
 					break;
 					
 				case 'l':
-					explorer.turnRight();
+					explorer.turnLeft();
 					break;
 			}
 			
