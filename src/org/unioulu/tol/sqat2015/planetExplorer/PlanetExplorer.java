@@ -34,6 +34,9 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 	
+		if (command.isEmpty())
+			explorer.resetPosition();
+		
 		for (char c : command.toCharArray()) {
 			
 			switch (c) {
