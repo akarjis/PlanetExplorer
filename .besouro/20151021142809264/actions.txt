@@ -276,3 +276,10 @@ RefactoringAction 1445431825189 TestPlanetExplorer.java ADD void testPlanetSize(
 RefactoringAction 1445431830207 TestPlanetExplorer.java RENAME testPlanetSize()/2=>void testObstacle() METHOD
 RefactoringAction 1445431897806 PlanetExplorer.java ADD Planet getPlanet() METHOD
 EditAction 1445431897874 PlanetExplorer.java 2150 6 9 0
+RefactoringAction 1445431910297 TestPlanetExplorer.java ADD Planet planet FIELD
+RefactoringAction 1445431927967 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.Planet IMPORT
+UnitTestCaseAction 1445431950946 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445431950946 TestPlanetExplorer FAIL
+RefactoringAction 1445431969056 Planet.java ADD void placeObstacles() METHOD
+RefactoringAction 1445431972568 Planet.java RENAME placeObstacles()=>void placeObstacles(String) METHOD
+EditAction 1445431974361 Planet.java 494 5 6 0

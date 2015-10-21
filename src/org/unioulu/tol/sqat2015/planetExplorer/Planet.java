@@ -25,4 +25,7 @@ public class Planet {
 		return sizeY;
 	}
 	
+	public void placeObstacles(String obstacles) {
+		
+	}
 }
