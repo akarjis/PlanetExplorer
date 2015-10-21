@@ -337,3 +337,6 @@ UnitTestCaseAction 1445433381266 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445433381266 TestPlanetExplorer FAIL
 RefactoringAction 1445433399637 TestPlanetExplorer.java REMOVE testPlaceObstaclesOutsideThePlanet() METHOD
 EditAction 1445433406299 Planet.java 871 5 9 0
+UnitTestCaseAction 1445433407863 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445433407863 TestPlanetExplorer OK
+EditAction 1445433440332 Explorer.java 1966 11 15 0

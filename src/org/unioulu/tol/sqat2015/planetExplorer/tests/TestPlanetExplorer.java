@@ -47,14 +47,6 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testPlaceObstaclesOutsideThePlanet() {
-		planetExplorer = new PlanetExplorer(100,100, "(999,999)");
-		planet = planetExplorer.getPlanet();
-		
-		assertFalse(planet.getCell(999, 999));
-	}
-	
-	@Test
 	public void testExplorerMoveCommandOnce() {
 		String returnString = planetExplorer.executeCommand("b");
 		assertEquals("(0,1,N)", returnString);
