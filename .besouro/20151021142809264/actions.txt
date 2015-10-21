@@ -167,3 +167,10 @@ RefactoringAction 1445429811706 Explorer.java ADD String get FIELD
 RefactoringAction 1445429819719 Explorer.java RENAME get=>String getPosition() METHOD
 EditAction 1445429896614 Explorer.java 1124 7 9 0
 EditAction 1445429906377 PlanetExplorer.java 1892 5 8 0
+UnitTestCaseAction 1445429908307 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445429908308 TestPlanetExplorer OK
+RefactoringAction 1445429954369 TestPlanetExplorer.java ADD void testExplorerTurnCommandOnce()/2 METHOD
+RefactoringAction 1445429957386 TestPlanetExplorer.java RENAME testExplorerTurnCommandOnce()/2=>void testExplorer() METHOD
+RefactoringAction 1445429959401 TestPlanetExplorer.java RENAME testExplorer()=>void testE() METHOD
+RefactoringAction 1445429967420 TestPlanetExplorer.java RENAME testE()=>void testExplorerEmptyCommandReturnToStart() METHOD
+EditAction 1445430011463 TestPlanetExplorer.java 2487 10 33 17
