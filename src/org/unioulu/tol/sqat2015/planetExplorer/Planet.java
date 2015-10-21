@@ -30,8 +30,11 @@ public class Planet {
 		for (int i = 0; i < obstacles.length() * 5; i += 5) {
 			
 			String sub = obstacles.substring(i, i+5);
+	
+			int x = Integer.parseInt(sub.charAt(1) + "" );
+			int y = Integer.parseInt(sub.charAt(3) + "" );
 			
-			
+			cells[x][y] = true;
 		}
 	}
 }
